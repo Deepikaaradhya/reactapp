@@ -1,0 +1,80 @@
+body{
+    margin:auto
+}
+
+#main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#search{
+    background-image: url('https://i.ibb.co/xgc5GT0/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:red;
+    background-size: 100% 500px;
+    width:100%;
+    height: 500px;
+}
+
+#login{
+    margin-left: 70%;
+}
+
+#login> a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(32, 11, 4);
+    font-size:30px;
+}
+
+#logo{
+    font-size:70px;
+    color:white;
+    text-align: center;
+    background-color:black;
+    height:110px;
+    width:110px;
+    margin-left: 46%;
+    border-radius: 50%;
+}
+
+#logo > span {
+    font-weight: bold;
+    position: absolute;
+    margin-left: -28px;
+    margin-top: 10px;
+}
+
+#heading{
+    background:black;
+    color:white;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
+
+#dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 28%;
+    margin-top: 8%;
+}
+
+select{
+    height:60px;
+    width:30%;
+    font-size:20px
+}
+
+#restaurants{
+    width:50%;
+}
+.bike{
+    height: 20px;
+    width: 30px;
+    margin-left:1%;
+    animation: moveBike 20s infinite;
+}
