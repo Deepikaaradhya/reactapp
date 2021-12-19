@@ -120,7 +120,7 @@
 
 @media screen and (max-width:1000px){
     body{
-        background-color: rgb(148, 152, 155);
+        background-color: rgb(225, 234, 241);
         
     }
     .tileContainer{
@@ -134,7 +134,7 @@
 
 @media screen and (max-width:800px){
     body{
-        background-color: rgb(168, 143, 147);
+        background-color: rgb(245, 237, 238);
     }
     .tileContainer{
         width: 80%;
@@ -143,7 +143,7 @@
 
 @media screen and (max-width:600px){
     body{
-        background-color: rgb(124, 126, 124);
+        background-color: rgb(231, 240, 231);
     }
     .tileContainer{
         width: 100%;
@@ -152,11 +152,6 @@
         margin-top:7%;
     }
 }
-
-
-
-
-
 
 
 

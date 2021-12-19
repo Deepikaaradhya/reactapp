@@ -1,26 +1,27 @@
 import React,{Component} from 'react';
 import ViewDisplay from './ViewOrderDisplay';
-import Header from '../Header';
+//import Header from '../Header';/
 import axios from 'axios';
 
 const url="https://julynodeapi.herokuapp.com/viewOrder"
+const url1="https://julynodeapi.herokuapp.com/updateOrder"
 
 class ViewOrder extends Component {
     constructor(){
         super()
-
+        
         this.state={
             orders:''
         }
     }
     render(){
-        /*if(!sessionStorage.getItem('userData')){
+        if(!sessionStorage.getItem('userData')){
             return(
                 <div>
                     <h1>Login first to see booking</h1>
                 </div>
             )
-        }*/
+        }
         return(
             <div className="container">
                 <ViewDisplay orderData={this.state.orders}/>
@@ -30,7 +31,7 @@ class ViewOrder extends Component {
 
     // get orders 
     componentDidMount(){
-        /*if(this.props.location){
+        if(this.props.location){
             var qparams = this.props.location.search;
             if(qparams){
                 var data = {
@@ -50,8 +51,8 @@ class ViewOrder extends Component {
                         body:JSON.stringify(data)
                     })
             }
-        }*/
-        axios.get(url).then((res) => {this.setState({orders:res.data})})
+        }
+        axios.get(`${url}?email=${sessionStorage.getItem('userData').split(',')[1]}`).then((res) => {this.setState({orders:res.data})})
     }
 }
 

@@ -8,3 +8,17 @@
     margin-left: -16%;
     margin-top: 18%;
 }
+h2{
+    color:rgb(14, 10, 10);
+    font-weight: bold;
+    font-style:italic;
+}
+p{
+    font-weight:bold;
+    font-size: 20px;
+    color:rgb(2, 2, 63);
+}
+h3{
+    font-style: italic;
+    color: rgb(19, 18, 18);
+}

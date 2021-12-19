@@ -11,7 +11,7 @@ import Header from './Header';
 
 const Routing = () => {
     return(
-        <BrowserRouter>
+        <BrowserRouter froceRefresh={true}>
             <Header/>
             <Route exact path="/" component={Home}/>
             <Route path="/list/:mealId" component={Listing}/>

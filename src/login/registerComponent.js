@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 
-const url="https://developerjwt.herokuapp.com/api/auth/register";
+const url="https://app-logout.herokuapp.com/api/auth/register";
 
 class Register extends Component {
     constructor(props) {
@@ -78,9 +78,12 @@ class Register extends Component {
                                 </div> 
                             </div>
                         </div>
-                        <button className="btn btn-success" onClick={this.handleSubmit}>
+                        <button className="btn btn-primary" onClick={this.handleSubmit}>
                             Register
-                        </button>      
+                        </button>  &nbsp; &nbsp;   
+                        <button className="btn btn-primary" onClick={this.handleSubmit}>
+                            Cancel
+                        </button>  
                     </div>
                 </div>
             </div>

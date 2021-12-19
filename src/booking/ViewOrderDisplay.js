@@ -14,7 +14,7 @@ const ViewDisplay = (props) => {
                         <td>{item.phone}</td>
                         <td>{item.email}</td>
                         <td>{item.address}</td>
-                        <td>Rs.{item.tPrice}</td>
+                        <td>Rs.{item.amount}</td>
                         <td>{item.status}</td>
                         <td>{item.bank}</td>
                         <td>{item.bank_status}</td>

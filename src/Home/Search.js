@@ -57,11 +57,12 @@ class Search extends Component {
                     <span>E!</span>
                 </div>
                 <div class="bike">
-                    <img src="https://i.ibb.co/k0vXgF0/bike-copy.gif" style={{height:180,width:200}}/>
+                    <img src="https://i.ibb.co/k0vXgF0/bike-copy.gif" style={{height:170,width:230}}/>
                 </div>
                 <div id="heading">
                     Find The Best Restaurants,Cafes And Bars <span id="usercity"></span>
                 </div>
+                
                 <div id="dropdown">
                     <select id="city" onChange={this.handleCity}>
                         <option>---SELECT LOCATION---</option>

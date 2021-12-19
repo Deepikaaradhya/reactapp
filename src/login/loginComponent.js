@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 
-const url="https://developerjwt.herokuapp.com/api/auth/login";
+const url="https://app-logout.herokuapp.com/api/auth/login";
 
 class Login extends Component {
     constructor(props) {
@@ -46,7 +46,7 @@ class Login extends Component {
         return(
             <div className="container">
                 <br/>
-                <div className="panel panel-success">
+                <div className="panel panel-info">
                     <div className="panel-heading">
                         <h3>
                             Login
@@ -72,7 +72,7 @@ class Login extends Component {
                                 </div> 
                             </div>
                         </div>
-                        <button className="btn btn-success" onClick={this.handleSubmit}>
+                        <button className="btn btn-primary" onClick={this.handleSubmit}>
                             Login
                         </button>      
                     </div>
