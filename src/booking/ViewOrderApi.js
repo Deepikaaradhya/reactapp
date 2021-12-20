@@ -1,15 +1,14 @@
 import React,{Component} from 'react';
 import ViewDisplay from './ViewOrderDisplay';
-//import Header from '../Header';/
 import axios from 'axios';
 
-const url="https://julynodeapi.herokuapp.com/viewOrder"
+const url="https://julynodeapi.herokuapp.com/viewOrder";
 const url1="https://julynodeapi.herokuapp.com/updateOrder"
 
 class ViewOrder extends Component {
     constructor(){
         super()
-        
+
         this.state={
             orders:''
         }

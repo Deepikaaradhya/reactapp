@@ -28,8 +28,9 @@ const QuickSearch = (props) => {
         }
     }
     return(
-
+        
         <div id="quicksearch">
+            <Link to="/viewOrder">Orders</Link>
         <span id="QuickHeading">
             Quick Searches
         </span>

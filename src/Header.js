@@ -52,7 +52,6 @@ class Header extends Component {
             <header id="header">
                 <div id="logo_main">
                     <Link to="/"><h1 id="headingListing">E!</h1></Link>
-                    <Link to="/viewOrder">Orders</Link>
                 </div>
                 <div className="logoRight">
                     {this.conditionalHeader()}

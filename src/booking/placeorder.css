@@ -1,18 +1,6 @@
-.menu{
-    -webkit-box-shadow: 0 0 5px 5px lightgray;
-    -moz-box-shadow: 0 0 5px 5px lightgray;
-    box-shadow: 0 0 5px 5px lightgray;
-    float:left;
-    margin-right:5px;
-    width:250px;
-    height:330px;
-    margin-left: 10px;
-    margin-bottom:8px;
-}
-
 .items{
     float:left;
-    height:330px;
+    height:250px;
     width:250px;
     margin:2%;
     box-shadow:10px 10px 20px gray
@@ -22,23 +10,7 @@
    height:200px;
    width:100%
 }
-
-.card-image{
-    width:250px;
-}
-
-.card-image img{
-    width:250px;
-    height:130px;
-}
-
-.form{
-    margin-top:10px;
-    margin-bottom:10px;
-}
-
-@media screen and (max-width:1000px){
-        .id{
-            display:none;
-        }
+.gif>img{
+    width:50%;
+    height:50%;
 }
